@@ -1,0 +1,64 @@
+# ============================================================
+#  .gitignore —— 基于 Spring Boot + Vue 的毕设项目
+# ============================================================
+
+# ---------- Java / Maven ----------
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+replay_pid*
+
+# ---------- Node / Vue ----------
+node_modules/
+dist/
+dist-ssr/
+.vite/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# ---------- IDE ----------
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ---------- 操作系统 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- 敏感配置（务必忽略）----------
+**/application-local.yml
+**/application-local.properties
+**/application-dev-local.yml
+*.env
+.env
+!.env.example
+
+# ---------- 日志与临时文件 ----------
+logs/
+*.log
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# ---------- 运行/上传/导出临时目录 ----------
+/uploads/
+/tmp/
+/backend/logs/
