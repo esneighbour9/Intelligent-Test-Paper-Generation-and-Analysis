@@ -49,7 +49,16 @@
 
 ## 快速开始
 
-> 工程尚未初始化，待后端与前端脚手架完成后补充启动步骤。
+后端（Spring Boot 3.5.5，端口 8081）：
+
+```powershell
+cd backend
+mvn spring-boot:run
+```
+
+浏览器访问 `http://localhost:8081/api/hello`，返回 JSON 即启动成功。
+
+前端：待前端阶段完成后补充。
 
 ## 分支说明
 

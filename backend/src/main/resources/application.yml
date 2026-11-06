@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: paper-system
+
+server:
+  port: 8081
